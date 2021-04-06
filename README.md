@@ -3,7 +3,7 @@
 ### Here the advanced branch with more features 🙂
 
 <p align="center">
-  <img src="https://telegra.ph/file/e1d2e60a756b2cda8a058.jpg">
+  <img src="https://telegra.ph/file/5113434dcbd3e627a8b5d.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
