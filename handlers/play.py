@@ -61,7 +61,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="https://telegra.ph/file/d783eb338e4aac0488c93.jpg",
         reply_markup=keyboard,
-        caption="▶️ **Playing** Don't Forget To Add @IGRISMUSIC in group to listen the song requested by {}!".format(
+        caption="▶️ **Playing** Don't Forget To Add @Sensei_Anime in group to listen the song requested by {}!".format(
         message.from_user.mention()
         ),
     )
