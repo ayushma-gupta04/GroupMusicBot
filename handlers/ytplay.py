@@ -62,7 +62,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Support Group",
-                        url="https://t.me/IGRISBOTSUPPORT")
+                        url="https://t.me/Sensei_Anime")
                    
                 ]
             ]
@@ -73,7 +73,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Support Group",
-                        url="https://t.me/IGRISBOTSUPPORT")
+                        url="https://t.me/Sensei_Anime")
                    
                 ]
             ]
@@ -101,7 +101,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo=thumb_name,
         reply_markup=keyboard,
-        caption="▶️ **Playing** Don't Forget To add @IGRISMUSIC To listen Song requested by {}".format(
+        caption="▶️ **Playing** Don't Forget To add @SENSEIMUSIC_ROBOT To listen Song requested by {}".format(
         message.from_user.mention()
         ),
     )
