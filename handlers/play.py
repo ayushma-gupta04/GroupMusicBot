@@ -15,9 +15,9 @@ from helpers.errors import DurationLimitError
 from helpers.gets import get_url, get_file_name
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-@Client.on_message(command("playm") & other_filters)
+@Client.on_message(command("play") & other_filters)
 @errors
-async def playm(_, message: Message):
+async def play(_, message: Message):
 
     lel = await message.reply("🔄 **Processing** sounds...")
     sender_id = message.from_user.id
@@ -28,7 +28,7 @@ async def playm(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Support Group",
-                        url="https://t.me/IGRISBOTSUPPORT")
+                        url="https://t.me/Sensei_Anime")
                    
                 ]
             ]
