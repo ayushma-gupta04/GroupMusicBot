@@ -39,9 +39,9 @@ async def resume(_, message: Message):
         await message.reply_text("⏸ Resumed!")
 
 
-@Client.on_message(command("stopm") & other_filters)
+@Client.on_message(command("stop") & other_filters)
 @errors
-async def stopm(_, message: Message):
+async def stop(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
         await message.reply_text("❗ Nothing is streaming!")
     else:
