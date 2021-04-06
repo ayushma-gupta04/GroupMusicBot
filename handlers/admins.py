@@ -41,7 +41,6 @@ async def resume(_, message: Message):
 
 @Client.on_message(command("end") & other_filters)
 @errors
-@authorized_users_only
 async def stopm(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
         await message.reply_text("❗ Nothing is streaming!")
@@ -57,7 +56,6 @@ async def stopm(_, message: Message):
 
 @Client.on_message(command("skip") & other_filters)
 @errors
-@authorized_users_only
 async def skip(_, message: Message):
     if message.chat.id not in callsmusic.pytgcalls.active_calls:
         await message.reply_text("❗ Nothing is playing to skip!")
