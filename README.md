@@ -21,7 +21,7 @@
 - `/search <query>` - search videos on youtube with details
 
 #### Admins only
-- `/pause` - pause song play
+- `/pausem` - pause song play
 - `/resume` - resume song play
 - `/skip` - play next song
 - `/end` - stop music play
