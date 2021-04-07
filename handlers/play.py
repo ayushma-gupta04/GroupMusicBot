@@ -28,7 +28,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="Support Group",
-                        url="https://t.me/Sensei_Anime")
+                        url="https://t.me/")
                    
                 ]
             ]
