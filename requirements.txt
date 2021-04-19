@@ -3,7 +3,7 @@ TgCrypto
 py-tgcalls
 python-dotenv
 youtube-dl==2021.04.17
-youtube_search_python
+youtube_search_python==2021.04.17
 requests
 aiohttp
 asyncio
